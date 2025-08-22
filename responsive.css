@@ -1,0 +1,72 @@
+@media (max-width:1199.5px) {
+    .hero-badges .badge{
+        font-size: 1rem;
+    }
+
+}
+@media (max-width:991px) {
+   .main-img img{
+    width: 50%;
+   }    
+   .vertical-text{
+    top: 60%;
+   }
+   .wrapper{
+    padding: 3.125rem 0;
+   }
+   .main-btn{
+    font-size: 0.875rem;
+   }
+   h1{
+    font-size: 2.8125rem;
+    margin-bottom: 0.625rem;
+   }
+   h2{
+    font-size: 1.875rem;
+   }
+   h4{
+    font-size: 1.25rem;
+   }
+   h5{
+    font-size: 1.125rem;
+   }
+   p{
+    font-size: 0.875rem;
+    line-height: 1.35rem;
+   }
+   .about_wrapper img{
+    width: 100%;
+   }
+   .header-scrolled{
+    height: auto;
+   }
+   .services_wrapper .card{
+    padding: 1.875rem 0.875rem;
+   }
+}
+@media (max-width:767.5px) {
+    .ads_wrapper .card{
+        flex-direction: column;
+    }
+    .ads_wrapper .discount{
+        font-size: 1.5rem;
+    }
+    .ads_wrapper .ad-image{
+        margin-top: 2.1429rem;
+    }
+    .services_wrapper .card{
+        text-align: center;
+    }
+}
+@media (max-width:450px) {
+    .vertical-text{
+        display: none;
+    }
+}
+@media (max-width:360px) {
+    .ads_wrapper .ad-image{
+        margin-top: 2.1429rem;   
+
+    }
+
+}
